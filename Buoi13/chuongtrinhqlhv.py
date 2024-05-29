@@ -14,3 +14,15 @@ print("3. Sửa thông tin học viên")
 print("4. Xóa học viên")
 print("0. Thoát")
 nhap = int(input("Nhập chức năng muốn chọn: "))
+if(nhap==1):
+    print("Them hoc vien")
+elif(nhap==2):
+    print("Hien thi danh sach")
+elif(nhap==3):
+    print("Sua thong tin hoc vien")
+elif(nhap==4):
+    print("Xóa")
+elif(nhap==4):
+    print("Thoát")
+else:
+    print("Nhap sai, yêu cầu nhập lại")

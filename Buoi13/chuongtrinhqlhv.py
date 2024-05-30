@@ -1,4 +1,4 @@
-#Chương trình quản lý học viên
+#Chương trình quản lý học viên lớp Python1004
 #C R U D
 #C: Create   (Tạo các học viên) 
 #R: Read     (Hiển thị danh sách học viên)
@@ -16,6 +16,8 @@ print("0. Thoát")
 nhap = int(input("Nhập chức năng muốn chọn: "))
 if(nhap==1):
     print("Them hoc vien")
+    #Thêm học viên
+    #Class (init) -> Tạo Array -> Thêm từng học viên (input), append Array
 elif(nhap==2):
     print("Hien thi danh sach")
 elif(nhap==3):
@@ -26,3 +28,12 @@ elif(nhap==4):
     print("Thoát")
 else:
     print("Nhap sai, yêu cầu nhập lại")
+
+
+#Hiển thị danh sách
+# For chạy trong Array -> Print từng phần tử trong Array ra.
+
+#Làm sao để chương trình chạy "mãi" -> BTVN
+
+# Database  <=>  Python
+# Python

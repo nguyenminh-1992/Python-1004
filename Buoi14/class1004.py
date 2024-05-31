@@ -19,7 +19,8 @@ class class1004:
         for i in self.listclass1004:
             print("{:<15}{:<10}{:<15}{:<10}{:<15}{:<15}".format(i.ten,i.tuoi,i.quequan,i.lop,i.tienganh,i.tinhoc))
     
+    #tim kiem:
 
-test = class1004()
-test.themhocvien()
-test.hienthihocvien()
+#test = class1004()
+#test.themhocvien()
+#test.hienthihocvien()

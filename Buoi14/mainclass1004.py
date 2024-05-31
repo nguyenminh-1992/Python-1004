@@ -14,9 +14,9 @@ while(True):
     
     nhap = int(input("Nhap chuc nang theo so: "))
     if nhap==1: 
-        test.themhocvien
+        test.themhocvien()
     elif nhap==2:
-        test.hienthihocvien
+        test.hienthihocvien()
     elif nhap==3:
         print("Xoa hoc vien")
     elif nhap==4:

@@ -9,4 +9,8 @@
 #Class: Định nghĩa lớp Python1004
 #def (thêm, hiển thị, xóa, sửa, tìm kiếm)+
 
+#BTVN
+#Yêu cầu phần thêm học viên (có thể thêm 1 hoặc nhiều học viên trong 1 lần)
+#Số thứ tự (không nhập tay, không khai báo trong định nghĩa, tự động tăng dần)
+
 

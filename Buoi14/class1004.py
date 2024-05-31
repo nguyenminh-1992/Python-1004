@@ -13,11 +13,13 @@ class class1004:
         
         hocvien = classchung(ten,tuoi,quequan,lop,tienganh,tinhoc)
         self.listclass1004.append(hocvien)
-    
-    def intthocvien(self):
-        print("{} - {}".format(self.listclass1004[0].ten, self.listclass1004[0].tuoi))
 
+    def hienthihocvien(self):
+        print("{:<15}{:<10}{:<15}{:<10}{:<15}{:<15}".format("Ten","Tuoi","Quequan","Lop","TiengAnh","Tinhoc"))
+        for i in self.listclass1004:
+            print("{:<15}{:<10}{:<15}{:<10}{:<15}{:<15}".format(i.ten,i.tuoi,i.quequan,i.lop,i.tienganh,i.tinhoc))
+    
 
 test = class1004()
 test.themhocvien()
-test.intthocvien()
+test.hienthihocvien()

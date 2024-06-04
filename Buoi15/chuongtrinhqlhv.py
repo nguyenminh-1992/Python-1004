@@ -12,3 +12,14 @@
 #BTVN
 #Yêu cầu phần thêm học viên (có thể thêm 1 hoặc nhiều học viên trong 1 lần)
 #Số thứ tự (không nhập tay, không khai báo trong định nghĩa, tự động tăng dần)
+
+#Nội dung mục hiển thị:
+#STT*   Ten       Tuoi      Quequan        Lop       TiengAnh       Tinhoc    Xeploai*
+
+#1->4: yeu
+#4->7: kha
+#7-> 10: gioi
+
+
+
+

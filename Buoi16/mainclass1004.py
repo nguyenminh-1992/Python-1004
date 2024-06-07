@@ -22,13 +22,14 @@ while(True):
             i+=1
             print("Da them xong hoc vien thu {}".format(i-1))
         test.hienthihocvien()
-
     elif nhap==2:
         test.hienthihocvien()
     elif nhap==3:
-        print("Xoa hoc vien")
+        stt = int(print("Nhap stt muon xoa: "))
+        test.xoahocvien(stt)
     elif nhap==4:
-        print("Sua hoc vien")
+        stt = int(print("Nhap stt muon sua: "))
+        test.suahocvien(stt)
     elif nhap==0:
         print("Goodbye")
         break

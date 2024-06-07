@@ -25,6 +25,23 @@ class class1004:
         for i in self.listclass1004:
             print("{:<15}{:<15}{:<10}{:<15}{:<10}{:<15}{:<15}{:<15}".format(i.stt,i.ten,i.tuoi,i.quequan,i.lop,i.tienganh,i.tinhoc,i.xeploai))
     
+    def xoahocvien(self,sttcantim):
+        for i in self.listclass1004:
+            if(i.stt == sttcantim):
+                print("Da tim thay hoc vien")
+                self.listclass1004.remove(i)
+                print("Da xoa hoc vien")
+            else:
+                print("Khong tim thay hoc vien")
+    
+    def suahocvien(self,sttcantim):
+        for i in self.listclass1004:
+            if(i.stt == sttcantim):
+                print("Da tim thay hoc vien")
+                i.ten = input("Nhap ten muon sua: ")
+                i.tuoi = int(input("Nhap tuoi muon sua: "))
+            else:
+                print("Khong tim thay hoc vien")
     #tim kiem:
 
 #test = class1004()

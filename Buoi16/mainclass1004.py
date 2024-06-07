@@ -25,10 +25,10 @@ while(True):
     elif nhap==2:
         test.hienthihocvien()
     elif nhap==3:
-        stt = int(print("Nhap stt muon xoa: "))
+        stt = int(input("Nhap stt muon xoa: "))
         test.xoahocvien(stt)
     elif nhap==4:
-        stt = int(print("Nhap stt muon sua: "))
+        stt = int(input("Nhap stt muon sua: "))
         test.suahocvien(stt)
     elif nhap==0:
         print("Goodbye")

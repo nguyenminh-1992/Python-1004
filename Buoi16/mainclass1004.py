@@ -16,7 +16,7 @@ while(True):
     if nhap==1:
         soluong = int(input("Nhap so hoc vien muon nhap: "))
         i = 1
-        while (i < soluong):
+        while (i <= soluong):
             print("Nhap hoc vien thu {}".format(i))
             test.themhocvien()
             i+=1

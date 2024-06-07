@@ -8,3 +8,4 @@ class classchung():
         self.lop = lop
         self.tienganh = tienganh
         self.tinhoc = tinhoc 
+        #xeploai

@@ -16,9 +16,8 @@
 #Nội dung mục hiển thị:
 #STT*   Ten       Tuoi      Quequan        Lop       TiengAnh       Tinhoc    Xeploai*
 
-#1->4: yeu
-#4->7: kha
-#7-> 10: gioi
+#1->5: FAILED
+#5->10: PASS
 
 
 

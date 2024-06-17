@@ -13,27 +13,28 @@ while(True):
     
     try:
         nhap = int(input("Nhap chuc nang theo so: "))
+        if nhap==1:
+            soluong = int(input("Nhap so nhan vien muon nhap: "))
+            i = 1
+            while (i <= soluong):
+                print("Nhap nhan vien thu {}".format(i))
+                test.themnhanvien()
+                i+=1
+                print("Da them xong nhan vien thu {}".format(i-1))
+            test.hienthinhanvien()
+        elif nhap==2:
+            test.hienthihocvien()
+        elif nhap==3:
+            stt = int(input("Nhap stt muon xoa: "))
+            test.xoahocvien(stt)
+        elif nhap==4:
+            stt = int(input("Nhap stt muon sua: "))
+            test.suahocvien(stt)
+        elif nhap==0:
+            print("Goodbye")
+            break
+        else:
+            print("Nhap sai vui long nhap lai")
     except:
         print("Nhap sai")
-    if nhap==1:
-        soluong = int(input("Nhap so nhan vien muon nhap: "))
-        i = 1
-        while (i <= soluong):
-            print("Nhap nhan vien thu {}".format(i))
-            test.themnhanvien()
-            i+=1
-            print("Da them xong nhan vien thu {}".format(i-1))
-        test.hienthinhanvien()
-    elif nhap==2:
-        test.hienthihocvien()
-    elif nhap==3:
-        stt = int(input("Nhap stt muon xoa: "))
-        test.xoahocvien(stt)
-    elif nhap==4:
-        stt = int(input("Nhap stt muon sua: "))
-        test.suahocvien(stt)
-    elif nhap==0:
-        print("Goodbye")
-        break
-    else:
-        print("Nhap sai vui long nhap lai")
+

@@ -11,16 +11,19 @@ while(True):
     print("|0. Thoat                       |")
     print("|------------------------------ |")
     
-    nhap = int(input("Nhap chuc nang theo so: "))
+    try:
+        nhap = int(input("Nhap chuc nang theo so: "))
+    except:
+        print("Nhap sai")
     if nhap==1:
         soluong = int(input("Nhap so nhan vien muon nhap: "))
         i = 1
         while (i <= soluong):
-            print("Nhap hoc vien thu {}".format(i))
-            test.themhocvien()
+            print("Nhap nhan vien thu {}".format(i))
+            test.themnhanvien()
             i+=1
-            print("Da them xong hoc vien thu {}".format(i-1))
-        test.hienthihocvien()
+            print("Da them xong nhan vien thu {}".format(i-1))
+        test.hienthinhanvien()
     elif nhap==2:
         test.hienthihocvien()
     elif nhap==3:
